@@ -1,0 +1,68 @@
+@import '../css/main.css';
+
+@media (max-width: 900px) {
+   .main {
+      height: 1000px;
+      /* background-color: red; */
+   }
+
+   .center-full {
+      flex-direction: column;
+   }
+
+   .sec1-left,
+   .sec1-right {
+      width: 100% !important;
+      display: flex;
+      align-items: center;
+   }
+
+   .sec1-left h1 {
+      width: 400px;
+      text-align: center;
+      font-size: 2rem !important;
+      margin-top: 100px;
+   }
+
+   .sec1-left span {
+      font-size: 4rem !important;
+   }
+
+   .sec1-text {
+      align-items: center;
+      justify-content: center;
+      height: 150px !important;
+   }
+
+   .sec1-btn {
+      bottom: -20px !important;
+   }
+
+   .sec1-p {
+      justify-content: center;
+   }
+
+   .imgSec1 {
+      width: 350px;
+      left: 50%;
+      transform: translateX(-50%) !important;
+   }
+
+   .circle {
+      width: 600px !important;
+      height: 600px !important;
+      left: 50%;
+      transform: translateX(-50%) !important;
+      bottom: -100px !important;
+   }
+}
+
+@media (max-width: 400px) {
+   .sec1-left h1 {
+      font-size: 1rem !important;
+   }
+
+   .sec1-left span {
+      font-size: 3rem !important;
+   }
+}

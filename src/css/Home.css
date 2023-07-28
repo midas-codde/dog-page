@@ -1,137 +1,138 @@
 @import '../css/var.css';
 
 .circle {
-  width: 850px;
-  height: 850px;
-  position: absolute;
-  right: -170px;
-  bottom: -90px;
-  background-color: #fff;
-  border-radius: 50%;
-  z-index: 1;
+   width: 850px;
+   height: 850px;
+   position: absolute;
+   right: -170px;
+   bottom: -90px;
+   background-color: #fff;
+   border-radius: 50%;
+   z-index: 1;
 }
 
 .sec1-logo {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 30px;
-  pointer-events: none;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 30px;
+   pointer-events: none;
 }
 
 .logo {
-  width: 50px;
-  margin-right: 10px;
+   width: 50px;
+   margin-right: 10px;
 }
 
 .sec1-logo h2 {
-  color: #FF7D05;
-  font-family: Familjen Grotesk;
-  font-size: 20px;
-  font-weight: 700;
+   color: #FF7D05;
+   font-family: Familjen Grotesk;
+   font-size: 20px;
+   font-weight: 700;
 }
 
-.sec1 {
-  width: 50%;
-  height: 100%;
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 50px;
+.sec1-left,
+.sec1-right {
+   width: 50%;
+   height: 100%;
+   position: relative;
+   z-index: 2;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding-left: 50px;
 }
 
-.sec1 h1 {
-  color: #000;
-  font-family: Familjen Grotesk;
-  font-size: 3rem;
-  font-weight: 700;
+.sec1-left h1 {
+   color: #000;
+   font-family: Familjen Grotesk;
+   font-size: 3rem;
+   font-weight: 700;
 }
 
-.sec1 span {
-  color: #FF7D05;
-  font-family: Familjen Grotesk;
-  font-size: 5rem;
-  font-weight: 700;
+.sec1-left span {
+   color: #FF7D05;
+   font-family: Familjen Grotesk;
+   font-size: 5rem;
+   font-weight: 700;
 }
 
 .sec1-text {
-  width: 400px;
-  height: 200px;
-  display: flex;
-  position: relative;
+   width: 400px;
+   height: 200px;
+   display: flex;
+   position: relative;
 }
 
 .iconSec1 {
-  width: 30px;
-  height: 30px;
-  margin-right: 15px;
+   width: 30px;
+   height: 30px;
+   margin-right: 15px;
 }
 
 .sec1-line {
-  width: 1px;
-  height: 100%;
-  background-color: #000;
-  margin-right: 15px;
+   width: 1px;
+   height: 100%;
+   background-color: #000;
+   margin-right: 15px;
 }
 
 .sec1-p {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 80px;
-  text-align: start;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 80px;
+   text-align: start;
 }
 
 .sec1-p p {
-  width: 300px;
-  font-family: Familjen Grotesk;
+   width: 300px;
+   font-family: Familjen Grotesk;
 }
 
 .imgSec1 {
-  bottom: 0;
-  right: 50px;
-  position: absolute;
+   bottom: 0;
+   right: 50px;
+   position: absolute;
 }
 
 .sec1-btn {
-  width: 350px;
-  height: 40px;
-  display: flex;
-  position: absolute;
-  bottom: 50px;
+   width: 350px;
+   height: 40px;
+   display: flex;
+   position: absolute;
+   bottom: 50px;
 }
 
 .sec1-btn-left {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 130px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: var(--color-primary);
-  text-decoration: none;
-  margin-right: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 130px;
+   height: 40px;
+   border-radius: 20px;
+   background-color: var(--color-primary);
+   text-decoration: none;
+   margin-right: 50px;
 
-  color: #FFF;
-  font-family: Familjen Grotesk;
-  font-size: 1.1rem;
-  font-weight: 700;
+   color: #FFF;
+   font-family: Familjen Grotesk;
+   font-size: 1.1rem;
+   font-weight: 700;
 }
 
 .sec1-btn-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: var(--color-secondary);
-  text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 150px;
+   height: 40px;
+   border-radius: 20px;
+   background-color: var(--color-secondary);
+   text-decoration: none;
 
-  color: #FFF;
-  font-family: Familjen Grotesk;
-  font-size: 1.1rem;
-  font-weight: 700;
+   color: #FFF;
+   font-family: Familjen Grotesk;
+   font-size: 1.1rem;
+   font-weight: 700;
 }

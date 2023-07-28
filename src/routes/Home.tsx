@@ -1,4 +1,5 @@
 import '../css/main.css'
+import '../css/media.css'
 import '../css/Home.css'
 import imgSec1 from '../assets/imgs/dog-home.png'
 import iconSec1 from '../assets/icons/icon-sec1.png'
@@ -10,7 +11,7 @@ const Home = () => {
          <div className="main">
             <div className="center-full">
                <div className="circle"></div>
-               <div className="sec1">
+               <div className="sec1-left">
                   <div className="sec1-logo">
                      <img src={Logo} className="logo" />
                      <h2>Dog club</h2>
@@ -28,7 +29,7 @@ const Home = () => {
                      </div>
                   </div>
                </div>
-               <div className="sec1">
+               <div className="sec1-right">
                   <img src={imgSec1} className="imgSec1" />
                </div>
             </div>
