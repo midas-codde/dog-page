@@ -1,10 +1,40 @@
-function Home() {
-  return (
-    <>
-      <h1>Hellow world</h1>
-      <h1>Página HOME</h1>
-    </>
-  )
+import '../css/main.css'
+import '../css/Home.css'
+import imgSec1 from '../assets/imgs/dog-home.png'
+import iconSec1 from '../assets/icons/icon-sec1.png'
+import Logo from '../assets/icons/logo-dog.png'
+
+const Home = () => {
+   return (
+      <>
+         <div className="main">
+            <div className="center-full">
+               <div className="circle"></div>
+               <div className="sec1">
+                  <div className="sec1-logo">
+                     <img src={Logo} className="logo" />
+                     <h2>Dog club</h2>
+                  </div>
+                  <h1>Você também é apaixonado(a) por <span>cachorros?</span></h1>
+                  <div className="sec1-text">
+                     <div className="sec1-p">
+                        <img src={iconSec1} className='iconSec1' />
+                        <div className="sec1-line"></div>
+                        <p>Navegue por esse site e desfrute sobre as curiosidades de cada raça e belíssimas imagens de um animal onde 70% da população Brasileira é apaixonada!</p>
+                     </div>
+                     <div className="sec1-btn">
+                        <a className="sec1-btn-left" href="#">Raças</a>
+                        <a className="sec1-btn-right" href="#">Curiosidades</a>
+                     </div>
+                  </div>
+               </div>
+               <div className="sec1">
+                  <img src={imgSec1} className="imgSec1" />
+               </div>
+            </div>
+         </div>
+      </>
+   )
 }
 
 export default Home
