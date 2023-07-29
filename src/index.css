@@ -4,6 +4,6 @@
    box-sizing: border-box;
 }
 
-#root {
+#root,body {
    overflow-x: hidden;
 }
