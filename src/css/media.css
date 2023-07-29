@@ -3,7 +3,6 @@
 @media (max-width: 900px) {
    .main {
       height: 1000px;
-      /* background-color: red; */
    }
 
    .center-full {
@@ -55,6 +54,17 @@
       transform: translateX(-50%) !important;
       bottom: -100px !important;
    }
+
+   /* === SEC1 END === */
+
+   .welcome-left {
+      display: none;
+   }
+
+   .welcome-right {
+      height: 300px !important;
+   }
+
 }
 
 @media (max-width: 400px) {

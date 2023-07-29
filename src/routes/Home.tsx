@@ -1,7 +1,8 @@
 import '../css/main.css'
 import '../css/media.css'
 import '../css/Home.css'
-import imgSec1 from '../assets/imgs/dog-home.png'
+import imgSec1 from '../assets/imgs/dog-sec1.png'
+import imgSec2 from '../assets/imgs/dog-sec2.png'
 import iconSec1 from '../assets/icons/icon-sec1.png'
 import Logo from '../assets/icons/logo-dog.png'
 
@@ -31,6 +32,19 @@ const Home = () => {
                </div>
                <div className="sec1-right">
                   <img src={imgSec1} className="imgSec1" />
+               </div>
+            </div>
+         </div>
+         <div className="welcome">
+            <div className="center-full">
+               <div className="welcome-left">
+                  <div className="border-left"></div>
+                  <img src={imgSec2} className="imgSec2" />
+               </div>
+               <div className="welcome-right">
+                  <div className="border-right"></div>
+                   <h2>Bem vindo a <span>Dog club.</span></h2>
+                   <p>Aqui é um lugar totalmente informativo e de entretenimento sobre cachorros, onde você pode tirar suas dúvidas sobre alguma raça específica ou até mesmo conhecer uma nova. Você tem um doguinho de estimação? Que tal descobrir um pouco mais sobre a raça dele, e se você não tem, adote um!</p>  
                </div>
             </div>
          </div>
