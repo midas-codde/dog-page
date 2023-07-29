@@ -208,3 +208,135 @@
    right: 2px;
    top: 0;
 }
+
+/* === WELCOME END === */
+
+.races-title {
+   width: 100%;
+   height: 10%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.races-title h1 {
+   margin: 0px 30px;
+   color: #6C6C6C;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   font-family: Familjen Grotesk;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-bottom: 10px;
+}
+
+.races-line-left,
+.races-line-right {
+   width: 300px;
+   height: 3px;
+}
+
+.races-line-right {
+   background: linear-gradient(90deg, #6C6C6C 0%, #FFF 100%);
+}
+
+.races-line-left {
+   background: linear-gradient(90deg, #FFF 0%, #6C6C6C 100%);
+}
+
+.races-text {
+   display: flex;
+   align-items: start;
+   justify-content: center;
+   width: 100%;
+   height: 5%;
+
+   color: #000;
+   font-family: Familjen Grotesk;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.races-container {
+   width: 100%;
+   height: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.races-content {
+   position: relative;
+   display: flex;
+   box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.25);
+   transition: all .5s;
+}
+
+.races-content:hover {
+   margin-bottom: 30px;
+}
+
+.races-number {
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   top: -25px;
+   left: 50%;
+   transform: translate(-50%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   background-color: var(--color-secondary);
+
+   color: #FFF;
+   text-align: center;
+   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.81);
+   font-family: Familjen Grotesk;
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.races-content h2 {
+   text-align: center;
+   position: absolute;
+   width: 100%;
+   bottom: 30px;
+
+   color: #FFF;
+   text-align: center;
+   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.81);
+   font-family: Familjen Grotesk;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.btn-races {
+   width: 200px;
+   height: 40px;
+   background-color: var(--color-primary);
+   border-radius: 20px;
+   text-decoration: none;
+   transition: all .3s;
+
+   color: #FFF;
+   font-family: Familjen Grotesk;
+   font-size: 20px;
+   font-weight: 700;
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.btn-races:hover {
+   scale: 1.1;
+   background-color: #e46e00;
+}
+
+/* === RACES END === */
