@@ -3,6 +3,7 @@ import '../css/media.css'
 import '../css/Home.css'
 import imgSec1 from '../assets/imgs/dog-sec1.png'
 import imgSec2 from '../assets/imgs/dog-sec2.png'
+import imgSec4 from '../assets/imgs/bgSec4.png'
 import imgSpitz from '../assets/imgs/spitz.png'
 import imgBulldog from '../assets/imgs/bulldog.png'
 import imgShihTzu from '../assets/imgs/shihtzu.png'
@@ -93,6 +94,10 @@ const Home = () => {
                </div>
                <a className="btn-races" href="#">Ver todas as raças</a>
             </div>
+         </div>
+         <div className="main">
+            <img src={imgSec4} className="imgSec4" />
+            <div className="center-full"></div>
          </div>
       </>
    )
