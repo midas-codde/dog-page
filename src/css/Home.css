@@ -143,6 +143,7 @@
    background-color: #e46e00;
    scale: 1.1;
 }
+
 .sec1-btn-right:hover {
    background-color: #cfad00;
    scale: 1.1;
@@ -341,7 +342,7 @@
    font-family: Familjen Grotesk;
    font-size: 20px;
    font-weight: 700;
-   
+
    display: flex;
    align-items: center;
    justify-content: center;
@@ -352,4 +353,63 @@
    background-color: #e46e00;
 }
 
-/* === RACES END === */
+/* === SEC2 END === */
+
+.bg-fixed {
+   width: 100%;
+   height: 700px;
+   position: absolute;
+   background-image: url(../assets/imgs/bgSec4.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   opacity: 50%;
+}
+
+.sec3-text {
+   width: 700px;
+   background-color: #fff;
+   height: 80px;
+   color: #000;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Familjen Grotesk;
+   font-size: 1.5rem;
+   font-weight: 700;
+   margin-bottom: 30px;
+}
+
+.imgSec3 {
+   width: 400px;
+}
+
+.row {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.sec3-left, .sec3-right {
+   width: 250px;
+   height: 450px;
+   background-color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: Familjen Grotesk;
+}
+
+.sec3-left li, .sec3-right li{
+   margin: 30px 0px;
+}
+
+.sec3-left {
+   border-radius: 50px 0px 0px 50px;
+}
+.sec3-right {
+   border-radius: 0px 50px 50px 0px;
+}

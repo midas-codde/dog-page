@@ -3,7 +3,7 @@ import '../css/media.css'
 import '../css/Home.css'
 import imgSec1 from '../assets/imgs/dog-sec1.png'
 import imgSec2 from '../assets/imgs/dog-sec2.png'
-import imgSec4 from '../assets/imgs/bgSec4.png'
+import imgSec3 from '../assets/imgs/dog-sec3.png'
 import imgSpitz from '../assets/imgs/spitz.png'
 import imgBulldog from '../assets/imgs/bulldog.png'
 import imgShihTzu from '../assets/imgs/shihtzu.png'
@@ -96,8 +96,33 @@ const Home = () => {
             </div>
          </div>
          <div className="main">
-            <img src={imgSec4} className="imgSec4" />
-            <div className="center-full"></div>
+            <div className="bg-fixed"></div>
+            <div className="center-full colunm">
+               <div className="sec3-text">Aqui vai alguns motivos para você adotar um cachorro :)</div>
+               <div className="row">
+                  <div className="sec3-left">
+                     <ul>
+                        <li>Você vai dar boas risadas</li>
+                        <li>Combatem a solidão</li>
+                        <li>Cães nos ensinam a amar</li>
+                        <li>Reduzem o estresse</li>
+                        <li>Fazem você se exercitar</li>
+                        <li>Você nunca vai estar sozinho</li>
+                     </ul>
+                  </div>
+                  <img src={imgSec3} className="imgSec3" alt="" />
+                  <div className="sec3-right">
+                     <ul>
+                        <li>Protegem sua casa</li>
+                        <li>Nos tornam mais sociáveis</li>
+                        <li>Cães melhoram o nosso humor</li>
+                        <li>Combate a depressão</li>
+                        <li>Nos ensinam a viver o presente</li>
+                        <li>Eles não pedem nada em troca</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
          </div>
       </>
    )
