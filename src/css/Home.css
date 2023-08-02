@@ -392,7 +392,8 @@
    justify-content: center;
 }
 
-.sec3-left, .sec3-right {
+.sec3-left,
+.sec3-right {
    width: 250px;
    height: 450px;
    background-color: #fff;
@@ -403,13 +404,156 @@
    font-family: Familjen Grotesk;
 }
 
-.sec3-left li, .sec3-right li{
+.sec3-left li,
+.sec3-right li {
    margin: 30px 0px;
 }
 
 .sec3-left {
    border-radius: 50px 0px 0px 50px;
 }
+
 .sec3-right {
    border-radius: 0px 50px 50px 0px;
+}
+
+/* === SEC3 END === */
+
+.dachshund {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100vw;
+   height: 1500px;
+}
+
+.video-dach {
+   width: 350px;
+}
+
+.dach-sec-about {
+   width: 100%;
+   height: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.dach-left,
+.dach-right {
+   width: 50%;
+   height: 100%;
+   display: flex;
+}
+
+.dach-left {
+   justify-content: end;
+   align-items: center;
+   padding-right: 30px;
+
+}
+
+.dach-right {
+   width: 500px;
+   height: 500px;
+   justify-content: center;
+   flex-direction: column;
+   padding-left: 30px;
+}
+
+.dach-right h1 {
+   color: var(--color-primary);
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   font-family: Familjen Grotesk;
+   font-size: 58px;
+   font-weight: 700;
+}
+
+.dach-right h2 {
+   color: #000;
+   font-family: Familjen Grotesk;
+   font-size: 30px;
+   font-weight: 400;
+   margin-bottom: 50px;
+}
+
+.dach-right p {
+   width: 400px;
+   color: #000;
+   font-family: Familjen Grotesk;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.dach-sec-photo {
+   width: 100%;
+   height: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.dach-photos {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+}
+
+.dach-row {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height: 50%;
+   margin-bottom: 10px;
+}
+
+.div1 {
+   background-image: url(../assets/imgs/dach1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+
+   margin: 10px;
+   width: 30%;
+   height: 100%;
+   background-color: #9c9055;
+}
+.div2 {
+   background-image: url(../assets/imgs/dach2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+
+   margin: 10px;
+   width: 45%;
+   height: 100%;
+   background-color: #4e4207;
+}
+.div3 {
+   margin: 10px;
+   width: 25%;
+   height: 100%;
+   background-color: #30cf00;
+}
+.div4 {
+   margin: 10px;
+   width: 30%;
+   height: 100%;
+   background-color: #cf6e00;
+}
+.div5 {
+   margin: 10px;
+   width: 45%;
+   height: 100%;
+   background-color: #a8a281;
+}
+.div6 {
+   margin: 10px;
+   width: 25%;
+   height: 100%;
+   background-color: #cfad00;
 }

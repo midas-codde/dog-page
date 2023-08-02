@@ -9,6 +9,13 @@ import imgBulldog from '../assets/imgs/bulldog.png'
 import imgShihTzu from '../assets/imgs/shihtzu.png'
 import imgRottweiler from '../assets/imgs/rottweiler.png'
 import imgPug from '../assets/imgs/pug.png'
+import dachshundAbout from '../assets/videos/dachshund-about.mp4'
+import dach1 from '../assets/imgs/dach1.png'
+import dach2 from '../assets/imgs/dach2.png'
+import dach5 from '../assets/imgs/dach5.png'
+import dach6 from '../assets/imgs/dach6.png'
+import dachVideo1 from '../assets/videos/video1.mp4'
+import dachVideo2 from '../assets/videos/video2.mp4'
 import iconSec1 from '../assets/icons/icon-sec1.png'
 import Logo from '../assets/icons/logo-dog.png'
 
@@ -120,6 +127,54 @@ const Home = () => {
                         <li>Nos ensinam a viver o presente</li>
                         <li>Eles não pedem nada em troca</li>
                      </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div className="dachshund">
+            <div className="dach-sec-about">
+               <div className="center-full">
+                  <div className="dach-left">
+                     <video autoPlay loop muted className="video-dach">
+                        <source src={dachshundAbout} type="video/mp4" />
+                     </video>
+                  </div>
+                  <div className="dach-right">
+                     <h1>Dachshund</h1>
+                     <h2>Mas conhecido como "<b>Salsicha</b>"</h2>
+                     <p>Essa é a raça em que eu (Midas) sou apaixonado des de sempre, e como eu amo esse cãozinho não poderia deixar de fazer uma sessãozinha somente pra ele 🥰🐾.</p>
+                  </div>
+               </div>
+            </div>
+            <div className="dach-sec-photo">
+               <div className="center-full">
+                  <div className="dach-photos">
+                     <div className="dach-row">
+                        <div className="div1">
+                           {/* <img src={dach1} alt="" /> */}
+                        </div>
+                        <div className="div2">
+                           {/* <img src={dach2} alt="" /> */}
+                        </div>
+                        <div className="div3">
+                           {/* <video autoPlay loop muted className="video-dach1">
+                              <source src={dachVideo1} type="video/mp4" />
+                           </video> */}
+                        </div>
+                     </div>
+                     <div className="dach-row">
+                        <div className="div4">
+                           {/* <video autoPlay loop muted className="video-dach2">
+                              <source src={dachVideo2} type="video/mp4" />
+                           </video> */}
+                        </div>
+                        <div className="div5">
+                           {/* <img src={dach5} alt="" /> */}
+                        </div>
+                        <div className="div6">
+                           {/* <img src={dach6} alt="" /> */}
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
