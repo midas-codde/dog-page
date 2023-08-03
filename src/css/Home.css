@@ -425,7 +425,7 @@
    align-items: center;
    flex-direction: column;
    width: 100vw;
-   height: 1500px;
+   height: 1700px;
 }
 
 .video-dach {
@@ -495,11 +495,12 @@
 }
 
 .dach-photos {
-   width: 100%;
-   height: 100%;
+   width: 1000px;
+   height: 775px;
    display: flex;
    flex-direction: column;
    flex: 1;
+   position: relative;
 }
 
 .dach-row {
@@ -517,43 +518,114 @@
    background-size: cover;
    background-position: center center;
 
-   margin: 10px;
-   width: 30%;
-   height: 100%;
-   background-color: #9c9055;
+   position: absolute;
+   left: 50px;
+   top: 0;
+   width: 326px;
+   height: 312px;
 }
+
 .div2 {
    background-image: url(../assets/imgs/dach2.png);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
 
-   margin: 10px;
-   width: 45%;
-   height: 100%;
-   background-color: #4e4207;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: 0;
+   width: 387px;
+   height: 433px;
 }
+
 .div3 {
-   margin: 10px;
-   width: 25%;
-   height: 100%;
-   background-color: #30cf00;
+   position: absolute;
+   right: 140px;
+   top: 0;
+   width: 229px;
+   height: 373px;
 }
+
 .div4 {
-   margin: 10px;
-   width: 30%;
-   height: 100%;
-   background-color: #cf6e00;
+   position: absolute;
+   left: 50px;
+   bottom: 0;
+   width: 326px;
+   height: 436px;
 }
+
 .div5 {
-   margin: 10px;
-   width: 45%;
-   height: 100%;
-   background-color: #a8a281;
+   background-image: url(../assets/imgs/dach5.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: 0;
+   width: 387px;
+   height: 312px;
 }
+
 .div6 {
-   margin: 10px;
-   width: 25%;
+   background-image: url(../assets/imgs/dach6.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+
+   position: absolute;
+   right: 140px;
+   bottom: 0;
+   width: 229px;
+   height: 380px;
+}
+
+.video-dach1,
+.video-dach2 {
+   width: 100%;
    height: 100%;
-   background-color: #cfad00;
+}
+
+/* === SEC4 END === */
+
+.text-footer {
+   color: #000;
+   text-align: center;
+   font-family: Familjen Grotesk;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   width: 80%;
+   height: 100%;
+   padding-top: 50px;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Familjen Grotesk;
+   font-weight: 100;
+}
+
+.footer h3 {
+   font-family: Familjen Grotesk;
+   font-weight: 100;
+   font-size: 1rem;
+}
+
+.footer a {
+   color: var(--color-primary);
+   text-decoration: none;
+}
+
+.icon-footer {
+   margin-right: 30px;
 }

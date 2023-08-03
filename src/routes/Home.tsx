@@ -9,14 +9,13 @@ import imgBulldog from '../assets/imgs/bulldog.png'
 import imgShihTzu from '../assets/imgs/shihtzu.png'
 import imgRottweiler from '../assets/imgs/rottweiler.png'
 import imgPug from '../assets/imgs/pug.png'
+import imgFooter from '../assets/imgs/imgFooter.png'
 import dachshundAbout from '../assets/videos/dachshund-about.mp4'
-import dach1 from '../assets/imgs/dach1.png'
-import dach2 from '../assets/imgs/dach2.png'
-import dach5 from '../assets/imgs/dach5.png'
-import dach6 from '../assets/imgs/dach6.png'
 import dachVideo1 from '../assets/videos/video1.mp4'
 import dachVideo2 from '../assets/videos/video2.mp4'
 import iconSec1 from '../assets/icons/icon-sec1.png'
+import iconL from '../assets/icons/linkedin.png'
+import iconG from '../assets/icons/github.png'
 import Logo from '../assets/icons/logo-dog.png'
 
 const Home = () => {
@@ -150,32 +149,39 @@ const Home = () => {
                <div className="center-full">
                   <div className="dach-photos">
                      <div className="dach-row">
-                        <div className="div1">
-                           {/* <img src={dach1} alt="" /> */}
-                        </div>
-                        <div className="div2">
-                           {/* <img src={dach2} alt="" /> */}
-                        </div>
+                        <div className="div1"></div>
+                        <div className="div2"></div>
                         <div className="div3">
-                           {/* <video autoPlay loop muted className="video-dach1">
+                           <video autoPlay loop muted className="video-dach1">
                               <source src={dachVideo1} type="video/mp4" />
-                           </video> */}
+                           </video>
                         </div>
                      </div>
                      <div className="dach-row">
                         <div className="div4">
-                           {/* <video autoPlay loop muted className="video-dach2">
+                           <video autoPlay loop muted className="video-dach2">
                               <source src={dachVideo2} type="video/mp4" />
-                           </video> */}
+                           </video>
                         </div>
-                        <div className="div5">
-                           {/* <img src={dach5} alt="" /> */}
-                        </div>
-                        <div className="div6">
-                           {/* <img src={dach6} alt="" /> */}
-                        </div>
+                        <div className="div5"></div>
+                        <div className="div6"></div>
                      </div>
                   </div>
+               </div>
+            </div>
+         </div>
+         <div className="main">
+            <div className="center-full">
+               <p className="text-footer">Adotar um cachorro é uma decisão que vai muito além de simplesmente trazer um animal de estimação para casa. É uma escolha cheia de significado e repleta de vantagens tanto para você quanto para o adorável amigo de quatro patas que encontrará um lar amoroso. Através da adoção, você não apenas ganha um companheiro fiel, mas também oferece uma segunda chance a um cãozinho que já enfrentou dificuldades em sua vida. <br />
+                  Ao adotar um cachorro, você se torna parte de uma linda jornada de transformação, pois oferece a ele o amor, cuidado e segurança que merece. Essa relação de carinho e afeto retribui com uma amizade leal e incondicional, capaz de preencher os nossos dias com alegria e felicidade. <br />
+                  Além disso, a adoção é uma atitude ética e humanitária, ajudando a reduzir o número de animais abandonados nas ruas e em abrigos. Você estará contribuindo diretamente para a causa animal e para a construção de um mundo mais compassivo e responsável. <br />
+                  Portanto, ao pensar em incluir um novo membro em sua família, considere a adoção como a opção mais nobre e gratificante. Com um cachorro adotado, você terá a oportunidade de criar memórias inesquecíveis, compartilhar alegrias diárias e descobrir o verdadeiro significado da lealdade. Abra o seu coração e dê a um cãozinho a chance de ser amado, e você receberá em troca um amor incondicional que tocará a sua vida para sempre. <br />
+                  Faça a diferença na vida de um cachorro e descubra como a adoção pode mudar a sua própria vida de maneiras surpreendentes. Venha fazer parte dessa linda história de amor e companheirismo. Adote um cachorro e seja parte dessa maravilhosa jornada!</p>
+               <div className="footer">
+                  <h3>Site desenvolvido por <a target='_blank' href="https://snazzy-duckanoo-47d342.netlify.app/" >Midas</a></h3>
+                  <img src={imgFooter}  />
+                  <a href="https://www.linkedin.com/in/richard-israel-667462246/" target='_blank'><img src={iconL} className="icon-footer" /></a>
+                  <a href="https://github.com/RichardMidas" target='_blank'><img src={iconG} /></a>
                </div>
             </div>
          </div>
