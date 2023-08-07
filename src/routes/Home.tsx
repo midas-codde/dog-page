@@ -38,7 +38,7 @@ const Home = () => {
                         <p>Navegue por esse site e desfrute sobre as curiosidades de cada raça e belíssimas imagens de um animal onde 70% da população Brasileira é apaixonada!</p>
                      </div>
                      <div className="sec1-btn">
-                        <a className="sec1-btn-left" href="#">Raças</a>
+                        <a className="sec1-btn-left" href="/races">Raças</a>
                         <a className="sec1-btn-right" href="#">Curiosidades</a>
                      </div>
                   </div>
@@ -98,7 +98,7 @@ const Home = () => {
                      <h2>Pug</h2>
                   </div>
                </div>
-               <a className="btn-races" href="#">Ver todas as raças</a>
+               <a className="btn-races" href="/races">Ver todas as raças</a>
             </div>
          </div>
          <div className="main">
