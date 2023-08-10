@@ -44,7 +44,7 @@ const router = createBrowserRouter([
    { path: "races/beagle", element: <BeaglePage />},
    { path: "races/borzoi", element: <BorzoiPage />},
    { path: "races/boxer", element: <BoxerPage />},
-   { path: "races/buldog", element: <BuldogPage />},
+   { path: "races/bulldog", element: <BuldogPage />},
    { path: "races/bull-terrier", element: <BullPage />},
    { path: "races/chihuahua", element: <ChihuahuaPage />},
    { path: "races/chow-chow", element: <ChowPage />},

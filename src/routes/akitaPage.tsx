@@ -10,7 +10,7 @@ function AkitaPage() {
       <>
          <div className="dog-header">
             <a href="/"><img src={iconHome} /></a>
-            <h1>Akita</h1>
+            <h1>Fiel</h1>
             <a href="/races"><img src={iconRaces} /></a>
          </div>
          <h2>O inteligente</h2>
