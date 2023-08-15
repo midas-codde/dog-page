@@ -17,39 +17,37 @@ import iconSec1 from '../assets/icons/icon-sec1.png'
 import iconL from '../assets/icons/linkedin.png'
 import iconG from '../assets/icons/github.png'
 import Logo from '../assets/icons/logo-dog.png'
+import AOS from 'aos'
 
 const Home = () => {
+   AOS.init();
    return (
       <>
          <div className="main">
             <div className="bg"></div>
             <div className="center-full">
-               <div className="circle"></div>
+               <div className="circle" data-aos="fade-left" data-aos-duration="1000"></div>
                <div className="sec1-left">
-                  <div className="sec1-logo">
+                  <div className="sec1-logo" data-aos="fade-down" data-aos-duration="1000">
                      <img src={Logo} className="logo" />
                      <h2>Dog club</h2>
                   </div>
-                  <h1>Você também é apaixonado(a) por <span>cachorros?</span></h1>
-                  <div className="sec1-text">
+                  <h1 data-aos="fade-right" data-aos-duration="1200">Você também é apaixonado(a) por <span>cachorros?</span></h1>
+                  <div className="sec1-text" data-aos="fade-right" data-aos-duration="1000">
                      <div className="sec1-p">
                         <img src={iconSec1} className='iconSec1' />
                         <div className="sec1-line"></div>
                         <p>Navegue por esse site e desfrute sobre as curiosidades de cada raça e belíssimas imagens de um animal onde 70% da população Brasileira é apaixonada!</p>
                      </div>
-                     <div className="sec1-btn">
-                        <a className="sec1-btn-left" href="/races">Raças</a>
-                        <a className="sec1-btn-right" href="#">Curiosidades</a>
-                     </div>
                   </div>
                </div>
-               <div className="sec1-right">
+               <div className="sec1-right" data-aos="fade-left" data-aos-duration="1200">
                   <img src={imgSec1} className="imgSec1" />
                </div>
             </div>
          </div>
          <div className="welcome">
-            <div className="center-full">
+            <div className="center-full" data-aos="fade-down" data-aos-duration="1200">
                <div className="welcome-left">
                   <div className="border-left"></div>
                   <img src={imgSec2} className="imgSec2" />
@@ -62,7 +60,7 @@ const Home = () => {
             </div>
          </div>
          <div className="main">
-            <div className="center-full colunm">
+            <div className="center-full colunm" data-aos="fade-down" data-aos-duration="1200">
                <div className="races-title">
                   <div className="races-line-left"></div>
                   <h1>Raças</h1>
@@ -106,7 +104,7 @@ const Home = () => {
             <div className="center-full colunm">
                <div className="sec3-text">Aqui vai alguns motivos para você adotar um cachorro :)</div>
                <div className="row">
-                  <div className="sec3-left">
+                  <div className="sec3-left" data-aos="fade-left" data-aos-duration="1200">
                      <ul>
                         <li>Você vai dar boas risadas</li>
                         <li>Combatem a solidão</li>
@@ -116,8 +114,8 @@ const Home = () => {
                         <li>Você nunca vai estar sozinho</li>
                      </ul>
                   </div>
-                  <img src={imgSec3} className="imgSec3" alt="" />
-                  <div className="sec3-right">
+                  <img src={imgSec3} className="imgSec3" alt="" data-aos="zoom-out" data-aos-duration="1000"/>
+                  <div className="sec3-right" data-aos="fade-right" data-aos-duration="1200">
                      <ul>
                         <li>Protegem sua casa</li>
                         <li>Nos tornam mais sociáveis</li>
@@ -148,7 +146,7 @@ const Home = () => {
             <div className="dach-sec-photo">
                <div className="center-full">
                   <div className="dach-photos">
-                     <div className="dach-row">
+                     <div className="dach-row" data-aos="fade-down" data-aos-duration="1200">
                         <div className="div1"></div>
                         <div className="div2"></div>
                         <div className="div3">
@@ -157,7 +155,7 @@ const Home = () => {
                            </video>
                         </div>
                      </div>
-                     <div className="dach-row">
+                     <div className="dach-row" data-aos="fade-up" data-aos-duration="1600">
                         <div className="div4">
                            <video autoPlay loop muted className="video-dach2">
                               <source src={dachVideo2} type="video/mp4" />
@@ -177,7 +175,7 @@ const Home = () => {
                   Além disso, a adoção é uma atitude ética e humanitária, ajudando a reduzir o número de animais abandonados nas ruas e em abrigos. Você estará contribuindo diretamente para a causa animal e para a construção de um mundo mais compassivo e responsável. <br />
                   Portanto, ao pensar em incluir um novo membro em sua família, considere a adoção como a opção mais nobre e gratificante. Com um cachorro adotado, você terá a oportunidade de criar memórias inesquecíveis, compartilhar alegrias diárias e descobrir o verdadeiro significado da lealdade. Abra o seu coração e dê a um cãozinho a chance de ser amado, e você receberá em troca um amor incondicional que tocará a sua vida para sempre. <br />
                   Faça a diferença na vida de um cachorro e descubra como a adoção pode mudar a sua própria vida de maneiras surpreendentes. Venha fazer parte dessa linda história de amor e companheirismo. Adote um cachorro e seja parte dessa maravilhosa jornada!</p>
-               <div className="footer">
+               <div className="footer" data-aos="fade-up" data-aos-duration="1200">
                   <h3>Site desenvolvido por <a target='_blank' href="https://snazzy-duckanoo-47d342.netlify.app/" >Midas</a></h3>
                   <img src={imgFooter}  />
                   <a href="https://www.linkedin.com/in/richard-israel-667462246/" target='_blank'><img src={iconL} className="icon-footer" /></a>

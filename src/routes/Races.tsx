@@ -29,16 +29,18 @@ import terrierRed from '../assets/imgs/dogs/terrierRed.png'
 import viraRed from '../assets/imgs/dogs/viraRed.png'
 import whippetRed from '../assets/imgs/dogs/whippetRed.png'
 import yorkRed from '../assets/imgs/dogs/yorkRed.png'
+import AOS from 'aos'
 
 function Races() {
+  AOS.init();
   return (
     <>
-      <div className="races-title marginTop">
+      <div className="races-title marginTop" data-aos="fade-down" data-aos-duration="1200">
         <div className="races-line-left"></div>
         <h1>Raças</h1>
         <div className="races-line-right"></div>
       </div>
-      <h2 className="races-subtitle">Clique em alguma raça e veja mais sobre ela</h2>
+      <h2 className="races-subtitle" data-aos="fade-down" data-aos-duration="1200">Clique em alguma raça e veja mais sobre ela</h2>
       <div className="main-races">
         <div className="center-full colunm">
           <div className="races-colunm">

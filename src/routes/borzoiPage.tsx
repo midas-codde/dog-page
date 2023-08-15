@@ -44,25 +44,25 @@ function BorzoiPage() {
         <div className="races-line-right"></div>
       </div>
       <div className="dog-text colunm">
-        <h4>1. História Centenária: Os Beagles têm uma história que remonta a mais de 2.000 anos. Eles eram cães de caça populares na Grécia Antiga e, ao longo dos séculos, foram aprimorados para suas habilidades de rastreamento.</h4> <br />
+        <h4>Origens Russas: O Borzoi, também conhecido como Galgo Russo, é uma raça de cão originária da Rússia. Eles eram originalmente criados para caçar presas como lobos e lebres nas vastas paisagens russas.</h4> <br />
 
-        <h4>2. Personalidade Alegre: Beagles são conhecidos por sua personalidade alegre e amigável. Eles geralmente possuem uma disposição otimista e adoram interagir com pessoas e outros cães.</h4> <br />
+        <h4>2. Elegância e Altura: Os Borzois são notáveis por sua elegância e altura. São cães de porte grande, com corpos longos e esguios, além de uma postura majestosa que reflete sua herança nobre.</h4> <br />
 
-        <h4>3. Excelente Faro: O olfato dos Beagles é excepcionalmente aguçado. Eles são frequentemente usados como cães farejadores em aeroportos e outros locais para detectar itens como drogas e alimentos.</h4> <br />
+        <h4>3. Pelagem Luxuosa: A pelagem do Borzoi é uma das suas características mais marcantes. Eles possuem uma pelagem longa e sedosa, frequentemente em cores variadas, incluindo branco, preto, marrom e cinza. Essa pelagem exige cuidados regulares para manter seu esplendor.</h4> <br />
 
-        <h4>4. Tamanho Compacto: Beagles são cães de porte médio, com uma altura geralmente variando entre 33 a 40 cm na cernelha e um peso de cerca de 9 a 11 kg.</h4> <br />
+        <h4>4. Personalidade Reservada: Os Borzois são frequentemente descritos como cães de personalidade tranquila e reservada. Eles podem ser independentes e, por vezes, distantes com estranhos, mas são extremamente leais aos seus donos.</h4> <br />
 
-        <h4>5. Manto Tricolor Típico: A pelagem tricolor é uma característica distintiva dos Beagles, composta principalmente por preto, branco e tons de castanho.</h4> <br />
+        <h4>5. Corredores Velozes: O Borzoi é um excelente corredor e é capaz de atingir altas velocidades. Sua agilidade e capacidade de percorrer grandes distâncias faziam deles caçadores eficientes nas vastas planícies russas.</h4> <br />
 
-        <h4>6. Adaptação a Ambientes Urbanos: Embora tenham sido criados para caçar, os Beagles podem se adaptar bem à vida urbana, desde que recebam exercícios e estímulos mentais adequados.</h4> <br />
+        <h4>6. Caçadores Habilidosos: Originalmente criados para a caça, os Borzois são cães de rastreamento talentosos. Sua visão aguçada e senso de olfato apurado os tornavam excelentes na perseguição de presas.</h4> <br />
 
-        <h4>7. Vocalização Única: Os Beagles são conhecidos por seu latido característico, muitas vezes descrito como "baying". Isso é uma parte natural de sua história de caça, onde eles sinalizariam a localização de uma presa para os caçadores.</h4> <br />
+        <h4>7. Socialização Importante: Devido à sua natureza reservada, a socialização precoce é essencial para Borzois. Expor esses cães a diferentes pessoas, animais e ambientes desde filhotes ajuda a evitar comportamentos tímidos ou reclusos.</h4> <br />
 
-        <h4>8. Risco de Obesidade: Beagles têm uma tendência a ganhar peso rapidamente. É importante controlar sua dieta e fornecer exercícios regulares para evitar problemas de saúde associados à obesidade.</h4> <br />
+        <h4>8. Companheiros Tranquilos: Embora tenham um passado de caça e velocidade, os Borzois muitas vezes são cães tranquilos em ambientes domésticos. Eles apreciam relaxar e podem ser considerados companheiros afetuosos e serenos.</h4> <br />
 
-        <h4>9. Inteligência e Teimosia: Beagles são inteligentes, mas também podem ser um pouco teimosos. Isso pode tornar o treinamento um desafio, mas com métodos de treinamento positivos e consistentes, eles podem aprender comandos e truques.</h4> <br />
+        <h4>9. Expectativa de Vida Moderada: A expectativa de vida de um Borzoi geralmente varia de 10 a 12 anos. Cuidados de saúde adequados, uma dieta equilibrada e exercícios regulares podem ajudar a mantê-los saudáveis e ativos.</h4> <br />
 
-        <h4>10. Longevidade: A expectativa de vida média de um Beagle é geralmente de 10 a 15 anos, embora isso possa variar de acordo com a genética, cuidados de saúde e estilo de vida.</h4> <br />
+        <h4>10. Ligações Profundas: Embora possam ser inicialmente reservados com estranhos, os Borzois formam laços profundos e duradouros com suas famílias. Eles são conhecidos por sua lealdade e devoção aos seus donos, tornando-se companheiros fiéis ao longo da vida.</h4> <br />
       </div>
     </>
   )
