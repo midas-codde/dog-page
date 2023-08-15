@@ -3,7 +3,7 @@ import iconHome from '../assets/icons/home.png'
 import iconRaces from '../assets/icons/pawprint.png'
 import img1 from '../assets/imgs/dogs/chi1.png'
 import img2 from '../assets/imgs/dogs/chi2.webp'
-import img3 from '../assets/imgs/dogs/chi3.jpg'
+import img3 from '../assets/imgs/dogs/chii3.jpg'
 
 function ChihuahuaPage() {
   return (
