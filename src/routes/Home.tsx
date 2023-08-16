@@ -176,7 +176,7 @@ const Home = () => {
                   Portanto, ao pensar em incluir um novo membro em sua família, considere a adoção como a opção mais nobre e gratificante. Com um cachorro adotado, você terá a oportunidade de criar memórias inesquecíveis, compartilhar alegrias diárias e descobrir o verdadeiro significado da lealdade. Abra o seu coração e dê a um cãozinho a chance de ser amado, e você receberá em troca um amor incondicional que tocará a sua vida para sempre. <br />
                   Faça a diferença na vida de um cachorro e descubra como a adoção pode mudar a sua própria vida de maneiras surpreendentes. Venha fazer parte dessa linda história de amor e companheirismo. Adote um cachorro e seja parte dessa maravilhosa jornada!</p>
                <div className="footer" data-aos="fade-up" data-aos-duration="1200">
-                  <h3>Site desenvolvido por <a target='_blank' href="https://snazzy-duckanoo-47d342.netlify.app/" >Midas</a></h3>
+                  <h3>Site desenvolvido por <a target='_blank' href="https://midas-code.netlify.app/" >Midas</a></h3>
                   <img src={imgFooter}  />
                   <a href="https://www.linkedin.com/in/richard-israel-667462246/" target='_blank'><img src={iconL} className="icon-footer" /></a>
                   <a href="https://github.com/RichardMidas" target='_blank'><img src={iconG} /></a>
